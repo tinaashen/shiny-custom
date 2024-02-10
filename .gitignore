@@ -3,7 +3,7 @@
 
 # Ignore specific Python script
 python_functions.py
-
+./DS_Store
 # Ignore everything in the results directory
 /results/*
 

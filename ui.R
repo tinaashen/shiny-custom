@@ -25,7 +25,7 @@ ui <- fluidPage(
                     height = "100px", # This will make the text area square
                     rows = 5), # You can specify the number of rows the text area initially displays,
       actionButton("download", "Download", style = "margin-bottom: 1%; margin-top: 1%;"),
-      fileInput("files", "Upload", accept = c(".py")),
+      textInput("files", "Filepath to workflow script", placeholder = "Enter the filepath to workflow script"),
       actionButton("done", "Upload"),
       ),
     mainPanel(

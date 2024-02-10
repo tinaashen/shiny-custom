@@ -27,14 +27,7 @@ shinyServer(function(input, output) {
   
   # Image upload and conversion from TIFF to PNG
   observeEvent(input$done, { file <- input$files
-  if (is.null(file)) return()
-  
-  # Generate a safe, unique filename to save in a specific directory
-  dest_file <- paste0("python_functions.py")
-  
-  # Move the file from temp location to desired location
-  file.rename(file$datapath, dest_file)
-  reticulate::source_python('python_functions.py')
+  reticulate::source_python(file)
   })
   
   # Placeholder for cells function or any other operation to handle file path input
