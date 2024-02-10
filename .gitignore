@@ -1,4 +1,12 @@
+# Ignore log files
 *.log
+
+# Ignore specific Python script
 python_functions.py
+
+# Ignore everything in the results directory
 /results/*
+
+# Ignore everything in the example_data directory
 /example_data/*
+
