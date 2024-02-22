@@ -48,6 +48,7 @@ https://github.com/tinaashen/shiny-custom/assets/106832655/f995b856-c39f-49a0-a9
 
 #### Troubleshooting
 - If the UI fails to appear or the app shuts down immediately, verify that RStudio and Shiny are using compatible versions.
+- Refer to [technical notes]("https://wehieduau.sharepoint.com/:w:/r/sites/StudentInternGroupatWEHI/Shared%20Documents/Image%20Introduction/2023-2024%20Summer%20Technical%20Notes/Technical%20Notes%20Shiny.docx?d=w488b868b75aa460eaea8ace0ef2cc5e2&csf=1&web=1&e=FBHNic") for pictures.
 
 
 
